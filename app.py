@@ -17,7 +17,7 @@ def health():
     return jsonify(
         application="trinitech-devops-app",
         status="healthy",
-        version="1.0"
+        version="1.1"
     ), 200
 
 

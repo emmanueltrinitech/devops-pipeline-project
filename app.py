@@ -8,7 +8,7 @@ def home():
     return """
     <h1>Trinitech DevOps CI/CD Pipeline</h1>
     <p>Application Status: Running</p>
-    <p>Version: 1.0</p>
+    <p>Version: 1.1</p>
     """
 
 

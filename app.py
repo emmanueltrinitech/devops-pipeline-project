@@ -8,7 +8,7 @@ def home():
     return """
     <h1>Trinitech DevOps CI/CD Pipeline</h1>
     <p>Application Status: Running</p>
-    <p>Version: 1.2</p>
+    <p>Version: 1.3</p>
     """
 
 
@@ -17,7 +17,7 @@ def health():
     return jsonify(
         application="trinitech-devops-app",
         status="healthy",
-        version="1.2"
+        version="1.3"
     ), 200
 
 
